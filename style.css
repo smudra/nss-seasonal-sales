@@ -1,0 +1,14 @@
+#prod-style {
+    background-color: cornsilk;
+    color: darkred;
+    border: 1px solid darkred;
+    margin: 0;
+    padding-left: 3em;
+}
+
+#dropdownMenu {
+    width: 7em;
+    color: darkred;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
