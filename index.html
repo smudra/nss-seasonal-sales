@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Seasonal Sales</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-    
-<h1>Here's the product Data</h1>
-    <div id="dept-product-item"></div>
+    <div id="prod-style">
+        <select id="dropdownMenu" name="select" onchange="springSale()">
+            <option value="winter">Winter</option>
+            <option value="autumn">Autumn</option>
+            <option value="spring">Spring</option>
+        </select>
+        <h1>Here's the product Data</h1>
+        <div id="dept-product-item"></div>
+    </div>
+    <h1>Here's the Category Data</h1>    
     <div id="dept-cat-items"></div>
     <script src="seasonal-sales.js"></script>
 </body>
